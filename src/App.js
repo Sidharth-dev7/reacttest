@@ -10,7 +10,7 @@ import Form1 from './Form1';
 function App() {
   return (
    <>
-   <webpage/>
+   
    <Counter/>
    <Ques2/>
   
