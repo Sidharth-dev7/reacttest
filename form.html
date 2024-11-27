@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style=" position: relative; padding-left: 6cm;">
+    <form onsubmit="showAlert(event)">
+        <label >Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+
+        <label >Email:</label><br>
+        <input type="email"  name="email" id="email" ><br>
+
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address"  id="address"></textarea><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
+<script>
+    function showAlert(event) {
+        event.preventDefault();  
+        var username = document.getElementById("username").value;
+        var email = document.getElementById("email").value;
+        var address = document.getElementById("address").value;
+        alert("Username: " + username + "\nEmail: " + email + "\nAddress: " + address);
+    }
+</script>
+</body>
+</html>
