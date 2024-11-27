@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+nav {
+    background-color: white;
+    overflow: hidden;
+    border-bottom: 2px solid blue;
+}
+
+nav a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 12px 20px ;
+    text-decoration: none;
+    position: relative;
+    
+}
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.but:hover
+{
+background-color: rgb(53, 53, 198);
+}
